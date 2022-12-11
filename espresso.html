@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 200px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* CSS for Button */
+
+.button-1 {
+  background-color: #39251F;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #39251F;
+}
+
+</style>
+</head>
+<body link="#000" alink="#017bf5" vlink="#000">
+  <br />
+  <h3 align="center">
+		<img src="Digital Espresso.png" width="150px;">
+    </h3>
+    <h3 align="center">
+		<font face="cinzel" size="4" style="margin-bottom: -200px;">
+			<a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="products-new.html">PRODUCTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="branches.html">BRANCHES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</font>
+	</h3>
+<div class="row">
+  <div class="column">
+    <img src="Espresso.jpeg.crdownload.jpg">
+  </div>
+  <div class="column">
+    <h1 style="font-size: 50px;">Espresso</h1>
+    <h2>Php 110.00</h2>
+    <p style="font-size: 30px;">Try our New Created Espresso with 1-oz shot or dopio ( double shot )</p>
+    <a href="products-new.html"><button class="button-1" role="button">BACK TO PRODUCTS</button></a>
+  </div>
+</div>
+<footer style="background-color: green; text-align: center; padding: 20px 0 20px 0;">&copy; 2022 Proudly Design by Ms. Beatrice Lui.</footer>
+</body>
+</html>
