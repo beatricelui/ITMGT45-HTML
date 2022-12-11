@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body link="#000" alink="#017bf5" vlink="#000">
+  <br>
+  <h3 align="center">
+  <img src="Digital Espresso.png" width="150px;">
+  </h3>
+  <h3 align="center">
+  <font face="cinzel" size="4" style="margin-bottom: -200px;">
+    <a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="products-new.html">PRODUCTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="branches.html">BRANCHES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  </font>
+</h3>
+	<br /><br /><br />
+<div style="text-align:center">
+  <h2>DIGITAL ESPRESSO</h2>
+  <p>Anything for the love of coffee & tech!</p>
+</div>
+
+<!-- The 1st set three columns -->
+<div class="row">
+  <div class="column">
+    <img src="Cebu.jpeg" alt="Nature" style="width:100%">
+    <h1 style="text-align: center;">Cebu</h1>
+  </div>
+  <div class="column">
+    <img src="Davao.png" alt="Snow" style="width:100%">
+    <h1 style="text-align: center;">Davao</h1>
+  </div>
+  <div class="column">
+    <img src="Makati.png" alt="Mountains" style="width:100%">
+    <h1 style="text-align: center;">Makati</h1>
+  </div>
+</div>
+<footer style="background-color: green; text-align: center; padding: 20px 0 20px 0;">&copy; 2022 Proudly Design by Ms. Beatrice Lui.</footer>
+</body>
+</html>
